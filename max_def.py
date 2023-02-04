@@ -1,0 +1,20 @@
+def Max(num1,num2,num3):
+    if (num1>num2):
+        if(num1>num3):
+            return num1
+        else:
+          return num3
+    else:
+        if(num2>num3):
+             return num2
+        else:
+            return num3
+m=Max(13,55,2)
+print("The value of the maxium is"+str(m))
+
+
+
+    
+
+
+    

@@ -1,0 +1,7 @@
+mylist=[23,4,6,8,23,8,8]
+mylist2=[]
+for x in mylist:
+  if x not in mylist2:
+      mylist2.append(x)
+print(mylist)
+print(mylist2)

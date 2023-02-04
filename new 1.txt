@@ -1,0 +1,3 @@
+word=["ghanshyam","mohan","sohjan"]
+for i in word:
+     print(i,'=',len(i))
